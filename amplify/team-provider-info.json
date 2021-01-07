@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-helsinki-dev-174310-authRole",
+      "UnauthRoleArn": "arn:aws:iam::207802189926:role/amplify-helsinki-dev-174310-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::207802189926:role/amplify-helsinki-dev-174310-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-helsinki-dev-174310-deployment",
+      "UnauthRoleName": "amplify-helsinki-dev-174310-unauthRole",
+      "StackName": "amplify-helsinki-dev-174310",
+      "StackId": "arn:aws:cloudformation:us-east-1:207802189926:stack/amplify-helsinki-dev-174310/b99c8340-5139-11eb-ba00-0e879b0972ad",
+      "AmplifyAppId": "d26zmjbk98yajw"
+    }
+  }
+}
