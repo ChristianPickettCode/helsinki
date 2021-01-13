@@ -50,7 +50,7 @@ const Landing = (props) => {
         <Layout className="layout" style={{height: "100%"}}>
             <PageHeader
                 title={<Link to="/"><h3 style={{ margin:"0" }}>"Atlis."</h3></Link>}
-                subTitle={<p style={{margin:"7px 0 0 0"}}>"for devs, by devs"</p>}
+                // subTitle={<p style={{margin:"7px 0 0 0"}}>"for devs, by devs"</p>}
                 extra={[
                     <Button key="2"><Link to="/code">Code</Link></Button>,
                     <Button key="1" type="primary"><a href="https://dashboard.atlis.dev">App</a></Button>,
