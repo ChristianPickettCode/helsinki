@@ -59,16 +59,16 @@ const Landing = (props) => {
                 <Route exact path="/">
                     <Content style={{ padding: '2%', overflow:"scroll", backgroundColor:"white", margin:"auto", width:"96%", height:"100%", textAlign:"left" }}>
                         <Row justify="space-between">
-                            <Col style={{ padding:"15% 3% 3% 3%"}} span={16}>
-                                <h1 style={{fontSize:"32px"}}>Contactless data transfers.</h1>
-                                <p>Passwordless authentication, form response and registration via qr codes.</p>
-                                <p>For react developers.</p>
+                            <Col style={{ padding:"10% 3% 3% 3%"}} span={12}>
+                                <h1 style={{fontSize:"72px", lineHeight:"1.2em"}}>Contactless data transfers.</h1>
+                                <h2>Passwordless authentication, form response and registration via <b><u>QR codes.</u></b></h2>
+                                <h2>For react developers.</h2>
                                 <br />
                                 {/* <Row>
                                     <Button type="danger">Register</Button>
                                 </Row> */}
                             </Col>
-                            <Col span={8} style={{alignSelf:"center", marginTop:"5vh"}}>
+                            <Col span={12} style={{alignSelf:"center", marginTop:"-40px"}}>
                                 <Image width={"100%"}  src="drawkit-nature-man-monochrome.svg"  preview={false}/>
                             </Col>
                         </Row>
